@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" class="css-mxjget">
+    <path fill="#FFB666" d="M16 8H8V0l8 8Z"></path>
+    <path fill="#924600" d="M16 8H8v8l8-8Z"></path>
+    <path fill="url(#:r10:-0)" d="M8 0 0 8h8V0Z"></path>
+    <path fill="#FFD627" d="M8 16 0 8h8v8Z"></path>
+    <path fill="url(#:r10:-1)" d="M12.5454 8H3.45453l4.54545-8 4.54542 8Z"></path>
+    <path fill="url(#:r10:-2)" d="M12.5454 8H3.45453l4.54545 8 4.54542-8Z"></path>
+    <defs>
+        <linearGradient id=":r10:-0" x1="7.81818" x2="1.81818" y1=".18182" y2="8" gradientUnits="userSpaceOnUse">
+            <stop offset=".434" stop-color="#E68C22"></stop>
+            <stop offset=".804" stop-color="#FFD327"></stop>
+        </linearGradient>
+        <linearGradient id=":r10:-1" x1="3.63639" x2="9.81817" y1="8" y2="4" gradientUnits="userSpaceOnUse">
+            <stop offset=".398" stop-color="#EF9C27"></stop>
+            <stop offset="1" stop-color="#965005"></stop>
+        </linearGradient>
+        <linearGradient id=":r10:-2" x1="5.81816" x2="12.1818" y1="12.3636" y2="8" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F5A129"></stop>
+            <stop offset="1" stop-color="#914C01"></stop>
+        </linearGradient>
+    </defs>
+</svg>

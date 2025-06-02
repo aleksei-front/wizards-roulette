@@ -1,0 +1,60 @@
+.items {
+    &::before,
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        height: 100%;
+        aspect-ratio: 111/116;
+        background: linear-gradient(270deg, rgba(20, 21, 28, 0) 0%, #14151C 100%);
+        z-index: 10;
+    }
+
+    &::before {
+        left: -3px;
+    }
+
+    &::after {
+        right: -3px;
+        scale: -1 1;
+    }
+}
+
+.gradientText {
+    background-clip: text;
+    background-image: linear-gradient(to top, #6BFF7A 0%, #00FF19 100%);
+}
+
+.info {
+
+    &::after {
+        position: absolute;
+        content: "";
+        z-index: -1;
+        translate: -50% 0;
+        pointer-events: none;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        height: 6rem;
+        width: 28rem;
+        background-image: radial-gradient(50% 100% at 50% 100%, rgba(78, 163, 77, 0.157) 0%, transparent 100%);
+    }
+}
+
+.active {
+    animation: pulse 0.6s forwards linear;
+    z-index: 20;
+}
+
+@keyframes pulse {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.1
+    }
+    100% {
+        scale: 1
+    }
+}
